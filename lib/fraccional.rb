@@ -6,4 +6,7 @@ class Fraccional
 	def to_s
 		"#{@num}/#{@denom}"
 	end
+	def + (other)
+		Fraccional.new(@num + other.num, @denom + other.denom)
+	end
 end
