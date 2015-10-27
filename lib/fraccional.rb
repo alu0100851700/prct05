@@ -7,6 +7,6 @@ class Fraccional
 		"#{@num}/#{@denom}"
 	end
 	def + (other)
-		Fraccional.new(@num + other.num, @denom + other.denom)
+		Fraccional.new(@num*other.denom + @denom*other.num, @denom * other.denom)
 	end
 end
