@@ -1,4 +1,4 @@
-require 'lib/fracional'
+require 'lib/fraccional'
 require 'test/unit'
 
 class TestFraccional < Test::Unit::TestCase
